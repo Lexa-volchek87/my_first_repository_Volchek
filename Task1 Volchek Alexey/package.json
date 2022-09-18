@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "script_1": "tsc test.ts -t es5",
+    "script_2": "tsc test.ts --removeComments",
+    "script_3": "tsc test.ts --outDir compiled"
+
+  },
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}

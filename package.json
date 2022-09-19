@@ -11,8 +11,8 @@
     ]
   },
   "scripts": {
-    "format": "prettier --config .prettierrc **/.ts --write",
-    "lint": "eslint src/.{ts,json}",
+    "format": "prettier --config .prettierrc src/*.ts --write",
+    "lint": "eslint src/*.{ts,json}",
     "lint:fix": "eslint src/*.{ts,json} --quiet --fix",
     "prepare": "husky install"
   },
@@ -23,5 +23,19 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "npx": "^10.2.2"
-  }
+  },
+  "name": "untitled",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lexa-volchek87/my_first_repository_Volchek.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lexa-volchek87/my_first_repository_Volchek/issues"
+  },
+  "homepage": "https://github.com/Lexa-volchek87/my_first_repository_Volchek#readme",
+  "description": ""
 }
